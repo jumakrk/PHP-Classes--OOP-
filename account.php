@@ -15,4 +15,7 @@ class Account {
 
     // create an object
     $account = new Account();
+    // var_dump($account);
+    // echo $account->account_number;
+    $account->get_account_number();
 ?>
